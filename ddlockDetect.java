@@ -19,7 +19,7 @@ public class ddlockDetect{
             {0, 0, 2}   // Process 2
         };
 
-        int[] available = {0, 0, 0};
+        int[] available = {5,4,5};
         
         boolean res=detectDeadlock(nProcesses, nResources, allocation, request, available);
         System.out.println(res);
